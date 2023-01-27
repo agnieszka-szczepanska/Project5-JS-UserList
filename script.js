@@ -30,7 +30,7 @@ addUsers = () => {
     innerUserElement.innerHTML = "LOADING........";
     setTimeout(() => {
       innerUserElement.innerHTML = `
-        <img width='128px' height='128px'src='https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'></img> ${name} `;
+        <img width='128px' height='128px'src='https://xsgames.co/randomusers/avatar.php?g=male'></img> ${name} `;
     }, 5000);
     containerData.append(innerUserElement);
   }

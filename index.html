@@ -7,9 +7,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 5</title>
     <script defer src="script.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.2rem;
+            background-image: linear-gradient(to bottom right, rgb(158, 214, 240), rgb(245, 216, 238));
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: gray;
+        }
+
+        body input {
+            margin: 20px;
+            font-size: 1.2rem;
+
+        }
+
+        .data div {
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #addMe {
+            background-color: rgb(245, 216, 238);
+            padding: 7px 20px;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            border: 1px solid gray;
+
+
+        }
+
+        #addMe:hover {
+            background-color: rgb(158, 214, 240);
+
+        }
+    </style>
 </head>
 
 <body>
+    <h1>Add user do the list below</h1>
     <input id="username" type="text" placeholder="username">
     <button id="addMe">Add</button>
     <div class="data"></div>
