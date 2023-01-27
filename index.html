@@ -13,12 +13,16 @@
         }
 
         body {
-            width: 80%;
             margin: 0 auto;
             text-align: center;
             font-size: 1.2rem;
             background-image: linear-gradient(to bottom right, rgb(158, 214, 240), rgb(245, 216, 238));
             min-height: 100vh;
+        }
+
+        .users {
+            max-width: 400px;
+            margin: auto;
         }
 
         h1 {
@@ -53,14 +57,26 @@
             background-color: rgb(158, 214, 240);
 
         }
+
+        .data div {
+            display: flex;
+            justify-content: flex-start;
+            gap: 100px;
+
+
+
+
+        }
     </style>
 </head>
 
 <body>
     <h1>Add user do the list below</h1>
-    <input id="username" type="text" placeholder="username">
-    <button id="addMe">Add</button>
-    <div class="data"></div>
+    <div class="users">
+        <input id="username" type="text" placeholder="username">
+        <button id="addMe">Add</button>
+        <div class="data"></div>
+    </div>
 </body>
 
 </html>
